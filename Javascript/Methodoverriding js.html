@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class person{
+            constructor(){
+                this.species = "homo sapiens";
+            }
+             eat(){
+              console.log("eating is needed")
+            } 
+            work(){
+                console.log("working to just pass the day")  
+                // here the function work with one statement
+            }
+        }
+        class Engineer  extends person{
+            work(){
+                console.log("working on unique and different projects")
+               // here the function work with some other statement 
+            }
+        }
+        let sweety = new Engineer();
+        sweety.work();// this prints the Engineer work() statement and this is termed as methodoverriding
+    </script>
+</body>
+</html>

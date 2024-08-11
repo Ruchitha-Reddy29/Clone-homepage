@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.myClass{
+    color:chocolate;
+}
+.newClass{
+   
+    background-color: antiquewhite;
+
+}
+</style>
+</head>
+<body>
+    <p class="myClass">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quis hic excepturi eaque? Suscipit animi autem quaerat aut cum magni repellat expedita? Obcaecati, in architecto? Libero natus delectus est dolore?</p>
+    <script>
+        let newEl = document.createElement("button")
+        newEl.innerText = "click me"
+        let body = document.querySelector("body").prepend(newEl)
+        newEl.style.backgroundColor="red";
+        newEl.style.color="white";
+        //question2
+        let para = document.querySelector("p")
+        // para.setAttribute("class","newClass");
+        
+
+
+    </script>
+</body>
+</html>

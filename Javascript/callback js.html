@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function difference(a,b){
+        console.log(a-b);
+       }
+       function sum(a,b){
+        console.log(a+b);
+       }
+       function calculator(a,b,callbackfun){
+        callbackfun(a,b);
+       }
+    //    calculator(10,8,difference);
+       
+    //    calculator(10,8,sum);
+        calculator(2,3,(a,b)=>{
+        console.log(a+b);
+       })
+
+    </script>
+</body>
+</html>

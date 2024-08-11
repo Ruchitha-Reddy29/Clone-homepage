@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+    const Student={
+        Fullname:"kyathi",
+        marks:94.4,
+        marklist(){
+        console.log("marks",this.marks);
+        }
+    }
+    console.log(Student.marklist())
+    const empBonus={
+        bonus(){
+            console.log("hike of 80%")
+        }
+    }
+    const Employee1 ={
+        Fullname: "uday",
+        salary : 90000
+
+    }
+    const Employee2={
+        Fullname: "lucky",
+        salary:30000
+    }
+    const Employee3 ={
+        Fullname:"princy",
+        salary:60000
+    }
+    const Employee4 ={
+        Fullname:"nancy",
+        salary:60000,
+        bonus(){
+            console.log("hike of 50%")
+        }
+
+    }
+    Employee1.__proto__ = empBonus;//creating prototype
+    Employee2.__proto__ = empBonus;
+    Employee3.__proto__ = empBonus;
+    Employee4.__proto__ = empBonus;
+    console.log(Employee1)
+    console.log(Employee2)
+    console.log(Employee3)
+    console.log(Employee4)
+    console.log(Employee1.bonus())
+    console.log(Employee4.bonus())
+
+
+   </script> 
+</body>
+</html>

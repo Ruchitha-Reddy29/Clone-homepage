@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width:100px;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div id ="one" name="sweety">analog to digital</div>
+    <script>
+        let div = document.querySelector("div");
+        console.log(div)
+        let id = div.getAttribute("id")           //getAttribute() method
+        console.log(id)
+        let name = div.getAttribute("name")
+        console.log(name)
+
+        console.log(div.setAttribute("name","ammu"));  // setAttribute() method
+        console.log(div.setAttribute("id","newid"))
+
+        div.style.backgroundColor="green"
+        div.style.color="brown"
+        div.style.fontSize = "22px"
+        div.style.textAlign="center"
+
+    </script>
+</body>
+</html>j

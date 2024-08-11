@@ -1,0 +1,341 @@
+*{
+   margin: 0;
+   font-family: Arial;
+   border: border-box; 
+}
+header{
+    position: fixed;
+    width:100%;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: fixed; */
+}
+.amazon{
+    height: 50px;
+    width:135px;
+   
+}
+.logo{
+   border: 2px solid transparent;
+    background-image: url("am.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+ .logo:hover{ 
+border: 2px solid white;
+}
+p{
+    font-size: 2px;
+}
+.icon{
+    font-weight: 500;
+}
+/* box2 */
+.location{
+    /* display:flex; */
+    align-items: center;
+}
+.one{
+    font-size: 0.85rem;
+    color: bisque;
+    margin-left: 12px;
+}
+.icon{
+    /* font-weight: 300; */
+    /* color: beige; */
+    font-size: 1rem;
+    margin-left: 5px;
+    display:flex
+}
+.two{
+    font-size: 1rem;
+}
+.location:hover{
+    border:2px solid white;
+
+}
+/* box3 */
+.search{
+    display:flex;
+    justify-content: space-evenly;
+    /* margin-left: 12px; */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.a{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.input-search{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+
+}
+.searchicon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FF9900 ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.search:hover{
+    border:2px solid orange;
+
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+    
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin:hover{
+    border:2px solid white;
+}
+.nav-return:hover{
+    border:2px solid white;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart:hover{
+    border: 2px solid white;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    font-size: 20px;
+}
+.panel-all:hover{
+    border:2px solid white;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    font-size :12px; 
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+.panel-deals:hover{
+    border: 2px solid white;
+    padding:9px;
+
+}
+
+/* main box/ */
+.mainly{
+    background-image: url("main.jpg");
+    height:400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+
+}
+.mainmessage{
+    background-color:#f3f3f3;
+    color: black;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 20px;
+}
+.mainmessage a{
+    color:#007185 ;
+}
+.box{
+    border:2px solid transparent;
+    height:400px;
+    width:23%;
+}
+.shopping{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 820px;
+    background-color: lightgray;
+    
+}
+.outbox{
+    background-color: white;
+    margin-top: 10px;
+    
+}
+.boxa{
+    height:250px;
+    background-image: url("home decor.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.para{
+    text-align: center;
+    font-size: large;
+}
+h2{
+    text-align: center;
+}
+.para a{
+    color:#007185;
+    text-decoration: underline;
+}
+.boxb{
+    
+    height: 250px;
+    background-image: url("toys.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
+.boxc{
+    height: 250px;
+    background-image: url("trendy\ t-shirts.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+.boxd{
+    height: 250px;
+    background-image: url("Shirts.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+
+
+
+}
+.boxe{
+    height: 250px;
+    background-image: url("watches.jpeg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.boxf{
+    height: 250px;
+    background-image: url("jeans.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.boxg{
+    height: 250px;
+    background-image: url("women.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.boxh{
+    height: 250px;
+    background-image: url("jewellery.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    margin-right:5px;
+}
+/* footer/ */
+.foot-panel1{
+    background-color:#37475a ;
+    color:white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    height: 500px;
+display: flex;
+justify-content: space-evenly;
+/* margin-top: 20px; */
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+.lastpanel{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    background-image:url("am.jpg") ;
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+

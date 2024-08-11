@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+            padding: 0;
+            
+        }
+        body{
+            background-color: rgb(158, 146, 146);
+            text-align:center;
+            border:solid black 15px;
+
+        }
+        input {
+            background-color: aqua;
+            border:solid  black ;
+        }
+        textarea{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   <h1>Form filling</h1> 
+  <div><label for="name">Enter user name</label>
+   <input type="text" id ="name" placeholder="enter your name">
+</div> 
+   <input type="radio" id="male"  name="gender" value="male">
+   <label for="male">Male</label>
+   <input type="radio" id="female" name="gender"  value="female">
+   <label for="female">female</label><div>
+   <label for="pass">Enter your Password</label>
+   <input type="password" id="pass" >
+   
+</div>
+<label for="email">Enter email address</label>
+<input type="email" id="email" name = "email.">
+<div>
+    <h5>select your favorite subjects</h5>
+<label for="computer">computer</label>
+
+
+<input type="checkbox" id="computer" name="c">
+<label for="maths">maths</label>
+<input type="checkbox" id="maths" name="m">
+<label for="science">science</label>
+<input type="checkbox" id="science" name="s"><div>
+<textarea name ="comment" rows="4" columns="7">comment your comments!</textarea><DIV>
+    <label for="b">Select your branch</label>
+<select name="branches" id="b">
+    <option id="cse">CSE</option>
+    <option id="ece">ECE</option>
+    <option id="mec">MEC</option>
+       
+    
+</select>
+</DIV>
+</div>
+</div>
+<button>Submit</button>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        height: 100px;
+        width: 100px;
+        margin:5px;
+        border:2px solid black;
+        background-color: aqua; 
+        text-align: center;
+       
+    }
+    </style>
+</head>
+<body>
+    <h3>hello guys</h3>
+    <div class="box">first div</div>
+    <div class="box">second div</div>
+    <div class="box">third div</div>
+    <div class="box">fourth div</div>
+    <script>
+       let a =  document.querySelector("h3")
+       console.dir(a)
+       let b = a.innerText
+       console.log(b)
+       a.innerText = b + "what are you doing"
+       console.log(a.innerText)
+       let divs = document.querySelectorAll(".box")
+       console.dir(divs);
+       console.log(divs[0])
+       console.log(divs[1])
+       console.log(divs[2])
+       console.log(divs[3])
+       divs[0].innerText = "new unique value 1";
+       console.log(divs[0].innerText)
+       divs[1].innerText = "new unique value 2";
+       console.log(divs[1].innerText)
+       
+       
+    </script>
+</body>
+</html>

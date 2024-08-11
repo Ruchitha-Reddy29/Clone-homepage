@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id ="btn1">click me!</button>
+    <script>
+        let btn1 = document.querySelector("#btn1")
+        btn1.addEventListener("click",()=>{
+            console.log("handler-1")
+        })
+        btn1.addEventListener("click",()=>{
+            console.log("handler-2")
+        })
+        btn1.addEventListener("click",()=>{
+            console.log("handler-3")
+        })
+        const handler=()=>{
+            console.log("handler-4")
+        }
+        btn1.addEventListener("click",handler)
+        
+        
+        btn1.removeEventListener("click",handler)
+            
+        
+
+    </script>
+</body>
+</html>

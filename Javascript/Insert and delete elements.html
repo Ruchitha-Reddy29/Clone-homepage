@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:200px;
+            width:150px;
+            background-color: aquamarine;
+            border:2px solid black;
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>hi this is something which is really important to do
+    <ul>
+        <li>java</li>
+        <li>c++</li>
+        <li>python</li>
+    </ul>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quia magni obcaecati ipsum! Accusamus illum beatae assumenda aliquam voluptate sapiente dicta minima autem hic! Ut nulla ad ratione repellat itaque saepe officia. At, atque asperiores?</p>
+    <script>
+        let newbtn = document.createElement("button");
+        newbtn.innerText = "submit"
+        console.log(newbtn)
+        let div = document.querySelector("div")
+        div.append(newbtn);
+        let heading = document.createElement("h1")
+        heading.innerHTML = "<i>Popular Languages in cse</i>"
+       let body = document.querySelector("body")
+       body.prepend(heading)
+        //removing an element
+        let para = document.querySelector("p");
+        para.remove()
+        //inserBefore() method
+        let div1 = document.createElement("div")
+        div1.innerText = "hi hello this is to be informed to you that ...."
+        let body1 = document.querySelector("body") 
+        let createdDiv = document.querySelector("div")
+        body.insertBefore(div1,body.firstChild.nextSibling)
+    </script>
+</body>
+</html>

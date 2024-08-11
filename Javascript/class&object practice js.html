@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = "abc*$"
+        class User{
+            constructor(name,email){
+              this.name = name;
+              this.email = email;
+            }
+            viewData(){
+                console.log("let try to maintain this data secret and i.e",data)
+            }
+        }
+        class Admin extends User{
+            constructor(name,email){
+                super(name,email);
+            }
+            editData(){
+                console.log("you have permision to edit Data")
+            }
+        }
+        let student1 = new User("Ruchitha","ruchitha@2005");
+        let student2 = new User("Lekhya","lekhya@2011");
+        let student3 = new User("Chakri","chakri@2004");
+
+        let teacher1 = new User("Dean","dean@2024");
+        let admin1 =  new Admin("admin1","admin@2024");
+        admin1.editData();
+        student1.viewData();
+        console.log(student1)
+        console.log(admin1)
+    </script>
+    
+
+    
+</body>
+</html>
